@@ -1,0 +1,45 @@
+/* styles for the body of the page  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+    background-color:lightgreen;
+    color:darkcyan;
+}
+
+/* header styles  */
+header {
+    padding: 20px;
+    background-color: lightyellow;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: hotpink;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    color: forestgreen;
+    text-decoration: none;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a{
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
