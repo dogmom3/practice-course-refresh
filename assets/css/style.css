@@ -1,45 +1,86 @@
-/* styles for the body of the page  */
-*{
-    margin: 0;
-    padding: 0;
+/* WHOLE PAGE STYTLES  */
+* {
+  margin: 0;
+  padding: 0;
 }
-
 body {
-    font-family: cursive;
-    background-color:lightgreen;
-    color:darkcyan;
+  font-family: cursive;
+  background-color: lavender;
+  /* display: flex;
+  flex-direction: column; */
 }
 
-/* header styles  */
+/* HEADER STYLES  */
 header {
-    padding: 20px;
-    background-color: lightyellow;
+  padding: 20px;
+  background-color: darkorchid;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
 }
-
 header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: hotpink;
-    margin: 0;
-    display: inline;
+  font-weight: bold;
+  font-size: 36px;
+  color: lime;
+  /* margin: 0; */
+  /* display: inline; */
 }
-
+header h2 {
+  color: lightskyblue;
+}
 header a {
-    color: forestgreen;
-    text-decoration: none;
+  text-decoration: none;
 }
-
-header nav {
-    float: right;
-    margin: 7px 0;
-}
-
 header nav ul li {
-    display: inline;
+  display: inline;
+}
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+  color: lightsteelblue;
 }
 
-header nav ul li a{
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
+/* STYLES */
+#dogs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#bio {
+  margin: 30px;
+}
+#image1, #image2, #image3 {
+  height: 400px;
+  width: 300px;
+  border-style: ridge;
+  border-width: 10px;
+  border-radius: 5px;
+  border-color: blueviolet;
+}
+#image2{
+    border-color: magenta;
+}
+#image3{
+    border-color:lightseagreen;
+}
+/* FOOTER STYLES */
+footer {
+  background: rebeccapurple;
+  /* width: 100%; */
+  /* padding: 40px 35 px; */
+  margin: 20px;
+}
+footer h2 {
+  color: lightskyblue;
+  font-size: 25px;
+}
+footer div {
+  line-height: 1.5;
+  text-align: right;
+  margin: 20px;
+  padding: 10px;
+}
+footer a {
+  color: lightsteelblue;
 }
