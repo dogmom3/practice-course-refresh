@@ -41,6 +41,20 @@ header nav ul li a {
   color: lightsteelblue;
 }
 
+/* FORM STYLES */
+.form {
+  background-image: url("../images/all3.jpeg");
+  height: 400px;
+}
+label {
+  font-size: 30px;
+}
+section {
+  padding: 60px;
+ margin-left: 50px;
+ margin-right: 50px;
+}
+
 /* STYLES */
 #dogs {
   display: flex;
@@ -50,7 +64,9 @@ header nav ul li a {
 #bio {
   margin: 30px;
 }
-#image1, #image2, #image3 {
+#image1,
+#image2,
+#image3 {
   height: 400px;
   width: 300px;
   border-style: ridge;
@@ -58,12 +74,13 @@ header nav ul li a {
   border-radius: 5px;
   border-color: blueviolet;
 }
-#image2{
-    border-color: magenta;
+#image2 {
+  border-color: magenta;
 }
-#image3{
-    border-color:lightseagreen;
+#image3 {
+  border-color: lightseagreen;
 }
+
 /* FOOTER STYLES */
 footer {
   background: rebeccapurple;
@@ -83,8 +100,4 @@ footer div {
 }
 footer a {
   color: lightsteelblue;
-}
-
-section {
-    padding: 60px;
 }
