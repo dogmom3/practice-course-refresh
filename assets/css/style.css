@@ -84,3 +84,7 @@ footer div {
 footer a {
   color: lightsteelblue;
 }
+
+section {
+    padding: 60px;
+}
