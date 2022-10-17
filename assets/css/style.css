@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  font-family: cursive;
+  font-family: fantasy;
   background-color: lavender;
   /* display: flex;
   flex-direction: column; */
@@ -17,19 +17,21 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 20px;
+  border-style: ridge;
+  border-width: 5px;
+  border-radius: 5px;
+  border-color: blue;
 }
 header h1 {
   font-weight: bold;
-  font-size: 36px;
-  color: lime;
-  /* margin: 0; */
-  /* display: inline; */
+  font-size: 40px;
 }
 header h2 {
-  color: lightskyblue;
+    color: lightskyblue;
 }
 header a {
   text-decoration: none;
+  color: lavender;
 }
 header nav ul li {
   display: inline;
@@ -38,21 +40,80 @@ header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 22px;
-  color: lightsteelblue;
+  color: lightskyblue;
 }
 
 /* FORM STYLES */
 .form {
-  background-image: url("../images/all3.jpeg");
-  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: -webkit-radial-gradient(white, lightskyblue);
+  width: 500px;
+  padding: 20px;
+  border-style: ridge;
+  border-width: 5px;
+  border-radius: 5px;
+  border-color: blue;
+
+}
+.form-heading {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#whitetop {
+  height: 20vh;
+  width: 10vw;
+  margin-right: 10px;
+  border-style: ridge;
+  border-width: 5px;
+  border-radius: 5px;
+  border-color: blue;
+}
+.formQuestions {
+  display: flex;
+  flex-direction: column;
+}
+.radiobtn {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.form-btn{
+padding: 10px 20px;
+font-size: 20px;
+border-style: ridge;
+border-color:blue;
+border-radius: 5px;
+border-width: 3px;
 }
 label {
-  font-size: 30px;
+  font-size: 25px;
+}
+.form-input{
+    border-style: ridge;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: blue;
+    display: block;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    color: navy;
+    width: 100%;
 }
 section {
   padding: 60px;
- margin-left: 50px;
- margin-right: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /* STYLES */
@@ -64,9 +125,9 @@ section {
 #bio {
   margin: 30px;
 }
-#image1,
-#image2,
-#image3 {
+#violet,
+#arlene,
+#waldo {
   height: 400px;
   width: 300px;
   border-style: ridge;
@@ -74,10 +135,10 @@ section {
   border-radius: 5px;
   border-color: blueviolet;
 }
-#image2 {
+#arlene {
   border-color: magenta;
 }
-#image3 {
+#waldo {
   border-color: lightseagreen;
 }
 
