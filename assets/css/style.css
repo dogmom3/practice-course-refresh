@@ -77,6 +77,10 @@ header nav ul li a {
 .formQuestions {
   display: flex;
   flex-direction: column;
+  padding: 5px;
+  border-style: ridge;
+  border-width: 5px;
+  border-radius: 5px;
 }
 .radiobtn {
   font-size: 25px;
@@ -104,12 +108,18 @@ label {
     border-width: 2px;
     border-color: blue;
     display: block;
-    padding: 7px;
+    padding: 5px;
     font-size: 20px;
     font-weight: bold;
     color: navy;
-    width: 100%;
 }
+.form-btn{
+    width: 50%;
+    align-self: center;
+    /* font-weight: bold; */
+    font-family: fantasy;
+}
+
 section {
   padding: 60px;
   margin-left: 50px;
